@@ -1,7 +1,8 @@
 var body = document.querySelector("body")
 var start = document.querySelector(".startButton")
 var reset = document.querySelector(".resetButton")
-var displayText = document.querySelector("span")
+var displayText = document.querySelector("h3")
+var displaySeconds = document.querySelector("span")
 var countDownValue = document.querySelector("input")
 
 currentValue = 60;
