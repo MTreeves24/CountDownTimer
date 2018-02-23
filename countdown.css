@@ -19,11 +19,11 @@ background: linear-gradient(to top, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Fir
 }
 
 h1{
-    font-size: 50px;
+    font-size: 2em;
     margin:20px;
 }
 h2{
-    font-size: 20px;
+    font-size: 1.5em;
     margin: 20px;
 }
 h3{
@@ -146,5 +146,6 @@ h3 span{
 @media screen and (min-width: 900px){
     .container{
         top:20%;
+        font-size: 1.5em;
     }
 }
