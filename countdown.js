@@ -33,6 +33,7 @@ countDownValue.addEventListener("change",() => {
 start.addEventListener("click",() => {
     countDown(currentValue);
     audio.currentTime = 0;
+    start.disabled = true;
 });
 
 
@@ -43,3 +44,4 @@ reset.addEventListener("click", () => {
     clearInterval(intervalId);
     start.disabled = false;
 })
+
