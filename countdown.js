@@ -8,8 +8,8 @@ var currentValue = 60;
 
 
 function countDown(seconds){
-      const intervalId = setInterval(() => {
-        seconds--;
+      intervalId = setInterval(() => {
+        seconds --;
         start.disabled = true;
         if(seconds>10){
             displayText.innerHTML = ("You have " + seconds + " seconds remaining")
@@ -40,6 +40,6 @@ reset.addEventListener("click", () => {
     displayText.textContent = "Play again?"
     body.classList.remove("timeup")
     audio.pause();
-    // clearInterval(intervalId)
+    clearInterval(intervalId);
     start.disabled = false;
 })

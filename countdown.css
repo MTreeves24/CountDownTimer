@@ -1,14 +1,21 @@
 
 
 body{
-    height: 90vh;
-    padding-top: 130px;
+    height: 100vh;
     color: white;
+    margin:0;
     text-shadow: 1px 1px 5px #555;
     text-align: center;
-background: #43cea2;  /* fallback for old browsers */
+    background: #43cea2;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    position: absolute;
+    top:5%;
+    left:0;
+    right:0;
 }
 
 h1{
@@ -133,4 +140,11 @@ h3 span{
     background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+
+@media screen and (min-width: 900px){
+    .container{
+        top:20%;
+    }
 }
