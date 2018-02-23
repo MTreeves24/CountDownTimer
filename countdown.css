@@ -13,7 +13,7 @@ background: linear-gradient(to top, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Fir
 
 .container{
     position: absolute;
-    top:2%;
+    top:0;
     left:0;
     right:0;
 }
